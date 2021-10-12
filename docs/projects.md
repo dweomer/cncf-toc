@@ -63,7 +63,7 @@
 [Operator Framework](https://github.com/operator-framework)|Katie Gamanji|[10/9/19](https://github.com/cncf/toc/pull/303)|[7/9/20](https://github.com/operator-framework)|Incubating
 [Serverless Workflow Specification](https://github.com/cncf/wg-serverless-workflow)|TOC Vote|[3/3/20](https://github.com/cncf/toc/pull/376)|[7/14/20](https://github.com/cncf/wg-serverless-workflow)|Sandbox
 [ChaosMesh](https://github.com/pingcap/chaos-mesh)|TOC Vote|[2/26/20](https://github.com/cncf/toc/pull/367)|[7/14/20](https://github.com/pingcap/chaos-mesh)|Sandbox
-[k3s](https://github.com/rancher/k3s)|TOC Vote|[5/11/2020](https://github.com/cncf/toc/pull/447)|[8/19/2020](https://github.com/rancher/k3s)|Sandbox
+[k3s](https://github.com/k3s-io/k3s)|TOC Vote|[5/11/2020](https://github.com/cncf/toc/pull/447)|[8/19/2020](https://github.com/k3s-io/k3s)|Sandbox
 [Backstage](https://github.com/spotify/backstage)|TOC Vote|[6/24/2020](https://github.com/cncf/toc/pull/476)|[9/8/2020](https://github.com/spotify/backstage)|Sandbox
 [Tremor](https://github.com/wayfair-tremor/)|TOC Vote|[7/13/2020](https://github.com/cncf/toc/pull/492)|[9/8/2020](https://github.com/wayfair-tremor/)|Sandbox
 [metal3-io](https://github.com/metal3-io/)|TOC Vote|[3/31/2020](https://github.com/cncf/toc/pull/408)|[9/8/2020](https://github.com/metal3-io/)|Sandbox

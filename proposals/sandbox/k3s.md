@@ -9,7 +9,7 @@ Authors:
 
 Link to Presentation - Coming soon. We'd like to have some guidance on what you want to see in the presentation.
 
-[**Link to GitHub project**](https://github.com/rancher/k3s)
+[**Link to GitHub project**](https://github.com/k3s-io/k3s)
 
 ### Project Goal
 
@@ -96,7 +96,7 @@ This architecture is illustrated in the following diagram:
 ## Formal Requirements
 Here is k3s's status on [the formal requirements](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc#sandbox-stage)
 - Require 3 of the 11 TOC members to step forward as sponsors to enter the sandbox - Pending
-- Adopt the CNCF Code of Conduct - [k3s is adopting the CNCF Community Code of Conduct](https://github.com/rancher/k3s/pull/1783)
+- Adopt the CNCF Code of Conduct - [k3s is adopting the CNCF Community Code of Conduct](https://github.com/k3s-io/k3s/pull/1783)
 - Adhere to CNCF IP Policy (including trademark transferred) - We agree to this policy and will work through the requirements with the CNCF as the process moves forward
 - List their sandbox status prominently on website/readme - We agree to do this
 
@@ -119,12 +119,12 @@ Yes.
 
 _List the repos for the project and their current license_
 
-- github.com/rancher/k3s - Apache 2.0
-- github.com/rancher/k3s-upgrade - Apache 2.0
+- github.com/k3s-io/k3s - Apache 2.0
+- github.com/k3s-io/k3s-upgrade - Apache 2.0
 - github.com/rancher/helm-controller - Apache 2.0
 - github.com/rancher/klipper-helm - Apache 2.0
 - github.com/rancher/klipper-lb - Apache 2.0
-- github.com/rancher/k3s-root - Apache 2.0
+- github.com/k3s-io/k3s-root - Apache 2.0
 
 _List any dependent repos (upstream/downstream) that are required to build the project (including but not limited to libraries, commercial tools, plugins)_
 
@@ -446,7 +446,7 @@ We've used the Kubernetes scale tests to judge performance and help users size t
 
 _What is the CI/CD system? Are there code coverage metrics? What types of tests exist?_
 
-- Drone is the CI system. PRs are exercised here: https://drone-pr.rancher.io/rancher/k3s
+- Drone is the CI system. PRs are exercised here: https://drone-pr.rancher.io/k3s-io/k3s
 - We largely leverage the Sonobuoy test suites from Kubernetes. Additionally, we are currently developing automated tests for exercising the different installation configurations possible with k3s.
 
 _Is there documentation?_
