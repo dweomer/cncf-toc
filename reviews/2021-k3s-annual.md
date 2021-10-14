@@ -110,7 +110,7 @@ K3s is also used as a building block for other projects and products. Here are a
 * [k3sup](https://github.com/alexellis/k3sup)
 * [Rancher Desktop](https://rancherdesktop.io/)
 
-We also track downloads of our binaries from GitHub (the primary way to install K3s). Over the past year, our cumulative, all-time number of downloads grew from right around 1.2 million to 2.7 million. Note that this number does not represent unique users. It is simply the number of times the k3s binaries have been downloaded.
+We also track downloads of our binaries from GitHub (the primary way to install K3s). Over the past year, our all-time number of downloads grew from around 1.2 million to 2.7 million. Note that this number does not represent unique users. It is simply the number of times the k3s binaries have been downloaded.
 
 
 ### How has the project performed against its goals since the last review? (We won't penalize you if your goals changed for good reasons.)
