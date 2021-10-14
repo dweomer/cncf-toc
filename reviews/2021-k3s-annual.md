@@ -149,7 +149,7 @@ Beyond these above items, here is a list of our accomplishment highlights over t
   - cgroupv2 support
   - Kine (DB shim) performance and reliability improvements
   - Kubernetes CIS hardening guide evaluation and conformance
-  - Many more - hundreds off issues closed across 40+ release since last October
+  - Many more - hundreds of issues closed across 40+ release since last October
 
 Additionally, the maintainer team has contributed to projects that K3s relies on or integrates with, including:
 * [container-selinux](https://github.com/containers/container-selinux)
