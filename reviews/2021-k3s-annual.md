@@ -158,7 +158,7 @@ Additionally, the maintainer team has contributed to projects that K3s relies on
 * [flannel](https://github.com/flannel-io/flannel)
 
 
-One area where we've fallen short is in getting the Kubernetes patches we carry submitted to upstream. We didn't have the bandwidth to do so. Of these patches, our biggest/most interesting change is the use of our project KINE to allow for different SQL backends for Kubernetes. We'd like to submit this to upstream Kubernetes in the upcoming year.
+One area where we've fallen short is in getting the Kubernetes patches we carry submitted to upstream. We didn't have the bandwidth to do so. Of these patches, our biggest/most interesting change is the use of our project [KINE](https://github.com/k3s-io/kine) to allow for different SQL backends for Kubernetes. We'd like to submit this to upstream Kubernetes in the upcoming year.
 
 ### What are the current goals of the project? For example, are you working on major new features? Or are you concentrating on adoption or documentation?
 
