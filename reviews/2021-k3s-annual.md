@@ -99,7 +99,7 @@ Currently, the project has 11 maintainers, all with SUSE:
 - [Chris Kim](https://github.com/Oats87 "@Oats87")
 - [Michal Rostecki](https://github.com/vadorovsky "@vadorovsky")
 
-### What do you know about adoption, and how has this changed since your last review / since you joined Sandbox? If you can list companies that are end users of your project, please do so. (Feel free to link to an existing ADOPTERS file if appropriate.)
+### What do you know about adoption, and how has this changed since your last review / since you joined Sandbox?
 
 Based on issues filed on GitHub and interactions on Slack, K3s continues to see a healthy adoption from many different types of users from hobbyists to large organizations. However, we haven't begun to formally track adopters or ask their permission to list them as such. We will start to do so now.
 
@@ -109,11 +109,12 @@ K3s is also used as a building block for other projects and products. Here are a
 * [k3d](https://github.com/rancher/k3d)
 * [k3sup](https://github.com/alexellis/k3sup)
 * [Rancher Desktop](https://rancherdesktop.io/)
+* [RKE2](https://github.com/rancher/rke2)
 
 We also track downloads of our binaries from GitHub (the primary way to install K3s). Over the past year, our all-time number of downloads grew from around 1.2 million to 2.7 million. Note that this number does not represent unique users. It is simply the number of times the k3s binaries have been downloaded.
 
 
-### How has the project performed against its goals since the last review? (We won't penalize you if your goals changed for good reasons.)
+### How has the project performed against its goals since the last review?
 
 This is our first annual review, so here is a list of our accomplishments since joining the CNCF. When we submitted for inclusion in the CNCF, we outlined the following roadmap items:
 
@@ -147,8 +148,10 @@ Beyond these above items, here is a list of our accomplishment highlights over t
   - Improved airgap support
   - Traefik v2 integration
   - cgroupv2 support
-  - Kine (DB shim) performance and reliability improvements
+  - Kine (DB shim) performance and reliability improvements including transaction-locked pure-sql compaction, metrics support, and stubbed out GRPC services for compatibility with other distros such as kubeadm
   - Kubernetes CIS hardening guide evaluation and conformance
+  - stargz snapshotter support
+  - Nvidia device plugin support
   - Many more - hundreds of issues closed across 40+ release since last October
 
 Additionally, the maintainer team has contributed to projects that K3s relies on or integrates with, including:
@@ -160,7 +163,7 @@ Additionally, the maintainer team has contributed to projects that K3s relies on
 
 One area where we've fallen short is in getting the Kubernetes patches we carry submitted to upstream. We didn't have the bandwidth to do so. Of these patches, our biggest/most interesting change is the use of our project [KINE](https://github.com/k3s-io/kine) to allow for different SQL backends for Kubernetes. We'd like to submit this to upstream Kubernetes in the upcoming year.
 
-### What are the current goals of the project? For example, are you working on major new features? Or are you concentrating on adoption or documentation?
+### What are the current goals of the project?
 
 Similar to our accomplishments, our goals can be organized into "Keeping our house in order" and "Features":
 - Keeping our house in order
