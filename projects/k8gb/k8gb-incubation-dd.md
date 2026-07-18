@@ -5,7 +5,7 @@
 - **Incubation application:** [cncf/toc#1472](https://github.com/cncf/toc/issues/1472)
 - **Project:** Sandbox since 2021-03-30 → applying **Incubation** · [k8gb-io/k8gb](https://github.com/k8gb-io/k8gb) · [k8gb.io](https://www.k8gb.io/)
 - **Primary DD authoring:** @TheFoxAtWork and @ricardorocha
-- **GTR:** [cncf/toc#2021](https://github.com/cncf/toc/issues/2021) · [PR #2029](https://github.com/cncf/toc/pull/2029) (in flight)
+- **GTR:** [cncf/toc#2021](https://github.com/cncf/toc/issues/2021) · [PR #2029](https://github.com/cncf/toc/pull/2029)
 - **Governance review:** [cncf/toc#1963](https://github.com/cncf/toc/issues/1963) · [PR #2020](https://github.com/cncf/toc/pull/2020)
 - **Security SSA on `main`:** [self-assessment.md](https://github.com/cncf/toc/blob/main/projects/k8gb/security-assessment/self-assessment.md)
 - **OpenSSF / CLOMonitor:** [clomonitor.io/projects/cncf/k8gb](https://clomonitor.io/projects/cncf/k8gb) — verify passing badge before public PR
@@ -270,7 +270,7 @@ Note: this section may be augmented by a joint-assessment performed by TAG Secur
 
 - [X] **Clearly defined and discoverable process to report security issues.**
 
-The project has a discoverable [SECURITY.md](https://github.com/k8gb-io/k8gb/commit/eb15fe8dd6a2a7734b8ec1d11d231b987dc0e458) file that outlines a clear process for reporting vulnerabilities to the maintainers and specifies the expected response timeline.
+The project has a discoverable [SECURITY.md](https://github.com/k8gb-io/k8gb/blob/master/SECURITY.md) file that outlines a clear process for reporting vulnerabilities to the maintainers and specifies the expected response timeline.
 
 - [X] **Enforcing Access Control Rules to secure the code base against attacks (Example: two factor authentication enforcement, and/or use of ACL tools.)**
 
