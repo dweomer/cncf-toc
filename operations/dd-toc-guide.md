@@ -181,9 +181,54 @@ In the course of conducting a project's Due Diligence, you may become aware of l
 
 TOC members who sponsor projects seeking graduation are expected to review the results of the audit to confirm the project has resolved all critical and high findings at a minimum. Additional findings are expected to be tracked for resolution by the project. In reviewing the audit of the project, you may find additional recommendations or deltas in the project's operational security (incident response, PR reviewer guidelines, lack of regression tests, etc.) that should be addressed. These are typically non-blocking, however you should take care to note them within the Due Diligence PR after conveying their need and importance of completion to the project. You may reach out to TAG Security for assistance in identifying these areas or reach out to a TOC member with a background in Security.
 
-#### Specification project
+#### Specification projects
 
-If a project is a specification project such as the TUF, SPIFFE and in-toto projects, there really is very little additional development that would need to happen and it is reasonable for the specification project to have only a few maintainers. For a specification project, it is required to have at least one implementation and that reference implementation DOES NOT need to be part of the project undergoing Due Diligence. The reference implementation should have sufficient adoption to assess maturity and viability of the specification.  In many successful specifications, different adopters will implement their own copy for a variety of reasons. Each individual implementation may have limited diversity of maintainers, adoption, etc. but as a whole it can be broad and diverse.
+A specification project is one that defines normative behavior (using keywords such as MUST, SHALL, SHOULD per [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119)) that third parties can independently implement. This includes projects that produce protocol definitions, API contracts, data format standards, or interoperability frameworks intended for multi-vendor implementation.
+
+CNCF projects generally fall into three categories for DD purposes:
+
+- **Specification projects** produce normative documents that define behavior for independent implementers. The spec text is the primary deliverable.
+- **Reference implementations** accompany a specification and demonstrate how to implement it. A reference implementation may be part of the same CNCF project as the spec or may exist as a separate project.
+- **Standalone tools and libraries** are software projects evaluated under the standard DD criteria without spec-specific considerations.
+
+A project may be **hybrid** - producing both a specification and a reference implementation. For hybrid projects, the reference implementation must independently meet the standard (non-spec) DD criteria for governance, adoption, and engineering maturity. The spec and implementation components should each be evaluated on their own merits.
+
+##### When spec-specific evaluation applies
+
+The TOC member conducting DD should apply the spec-specific criteria in this section when the project self-identifies as a specification project in its application, or when the TOC member determines the project includes normative spec content. If there is ambiguity about whether a project qualifies, the TOC member should discuss with the project during kick-off.
+
+##### Spec-specific evaluation criteria
+
+In addition to the standard DD criteria, spec projects are evaluated on the following:
+
+**Implementations.** Spec projects are expected to have multiple independent implementations that demonstrate the spec's viability and adoptability:
+
+- For incubation: at least 2 independent implementations, with at least 1 from outside the primary contributing organization to the spec authoring.
+- For graduation: at least 3 independent implementations, from at least 2 organizations.
+- A reference implementation created by the spec authors counts toward the implementation threshold but does not satisfy it alone. At least one implementation must come from an organization other than the primary contributing organization to the spec authoring.
+- Qualifying implementations must have documented production usage. An implementation that exists only as a proof of concept or test harness does not satisfy this criterion.
+- Individual implementations may have limited diversity of maintainers or adoption on their own, but as a whole the implementation ecosystem should be broad and diverse.
+- The reference implementation does not need to be part of the project undergoing Due Diligence.
+
+**Spec version stability.** The spec should have at least one stable or versioned release. For graduation, the spec should demonstrate stability through multiple versioned releases and a track record of managed, backward-compatible evolution.
+
+**Conformance and interoperability.** The project should provide documented conformance testing, an interoperability test suite, or other evidence that implementations can be validated against the spec. For graduation, a conformance test suite should be maintained and exercised across implementations.
+
+**Spec lifecycle maturity.** The project should have a formal proposal process for normative changes to the spec (for example: OTEPs, TAPs, gRPC Proposals, or equivalent). This demonstrates that the spec evolves through structured community input rather than unilateral changes.
+
+**Spec editor or equivalent role.** The project should have a named individual or role responsible for maintaining the spec text, with appropriate access and authority. This role may go by different titles across projects.
+
+##### Maintainer considerations for spec projects
+
+It is reasonable for a specification project to have fewer maintainers than a large software project, as the primary deliverable is a normative document rather than a codebase. The number of maintainers should be appropriate to the size and scope of the project. However, spec projects should still demonstrate multi-organization participation in the spec development process. Spec projects should be multi-vendor driven - vendor neutrality thresholds apply with the same or greater weight as for software projects, because a spec controlled by a single vendor risks becoming a proprietary standard rather than an open one.
+
+##### Adopter definition for spec projects
+
+For specification projects, "adopters" are the implementations of the spec and the organizations behind them, not users of a single reference implementation. When conducting adopter interviews for spec projects, the TOC should interview implementers from multiple independent implementations rather than only users of one implementation. This provides stronger evidence of the spec's viability and adoption than user interviews alone.
+
+##### Standards path (optional)
+
+Spec projects may optionally pursue formal standardization through the Joint Development Foundation (JDF). This is not a CNCF maturity criterion and is not evaluated during Due Diligence. Projects interested in this path should coordinate with CNCF staff separately.
 
 ### Finalizing the Due Diligence
 
@@ -220,6 +265,20 @@ To ease scheduling with adopters, TOC members are recommended to either include 
 It is anticipated that a minimum of three adopter interviews are required to appropriately ascertain adoption of a project. However in the course of interviewing, you may find that you need additional adopters or types of adopters to be interviewed.
 
 > **Note on Interview Participant Composition:** TOC members should prioritize interviewing adopter contacts who work with the project in an operational or user capacity. If the primary contact is a project maintainer or holds a project governance role, ask them to include a colleague from the same organization who uses the project operationally. Contributors from adopting organizations who have become maintainers can reflect strong community engagement, which is a positive signal. However, if such interviewees make up a meaningful proportion of the pool, overall results may skew overly positive. If you do not feel you have collected enough diverse perspectives, request interviews with additional adopters.
+
+#### Spec project adopter interviews
+
+For specification projects, the adopter interview process differs from standard software projects. Because the primary deliverable is a normative document rather than a single codebase, "adopters" are the independent implementations of the spec and the organizations behind them.
+
+When interviewing spec project adopters, the TOC should prioritize implementers from multiple independent implementations rather than users of a single reference implementation. In addition to the standard adopter interview questions, the following questions are relevant for spec project implementers:
+
+- Which parts of the spec does your implementation cover?
+- How do you track conformance with spec updates?
+- Have you participated in the spec proposal process?
+- What is your experience with interoperability testing against other implementations?
+- How does your implementation handle areas where the spec is ambiguous or silent?
+
+The goal is to assess whether the spec is implementable, adopted across organizations, and producing interoperable outcomes - not just whether one implementation has users.
 
 For projects moving from Incubation to Graduation, if considerable time has passed since Incubation (according to the TOC's judgement), the TOC should refresh the Adopter interviews. This may be done by reaching out to previous interviewees, by engaging a new group of adopters for interviews, or some combination thereof. If the time period between Incubation and Graduation is fairly recent, the TOC member(s) should exercise their judgement in choosing to pursue additional interviews. That decision should be recorded with justification in the adoption section of the template.
 
