@@ -1,5 +1,5 @@
 # General Technical Review questions
-v1.0
+v1.1
 ## Introduction
 
 The General Technical Review questions can be completed by a project in lieu of a presentation to a Technical Advisory Group (TAG) as well as to satisfy the Engineering Principle requirements of a Sandbox application or Due Diligence for moving levels. 
@@ -60,7 +60,12 @@ If this is the case for your project, please mark it as not-applicable (N/A) and
 - **Template Version:** v1.0
 - **Description:** <!-- Short project description --> 
 
+## Day -1 - Purpose and Vision
 
+  * What technical and business requirements and problems is the project intended to address? How does it address them?
+  * What unique values does the project offer compared to similar and related projects?
+  * What are the primary use cases for the project? What additional use cases are supported by the project?
+  * Are these use cases that are explicitly unsupported by the project and why?
 
 ## Day 0 - Planning Phase
 
@@ -68,8 +73,6 @@ If this is the case for your project, please mark it as not-applicable (N/A) and
 
   * Describe the roadmap process, how scope is determined for mid to long term features, as well as how the roadmap maps back to current contributions and maintainer ladder?
   * Describe the target persona or user(s) for the project?
-  * Explain the primary use case for the project. What additional use cases are supported by the project?
-  * Explain which use cases have been identified as unsupported by the project.  
   * Describe the intended types of organizations who would benefit from adopting this project. (i.e. financial services, any software manufacturer, organizations providing platform engineering services)?  
   * Please describe any completed end user research and link to any reports.
 
