@@ -57,7 +57,7 @@ If this is the case for your project, please mark it as not-applicable (N/A) and
 - **Project Version:** 
 - **Website:**
 - **Date Updated:** YYYY-MM-DD
-- **Template Version:** v1.0
+- **Template Version:** v1.0.1
 - **Description:** <!-- Short project description --> 
 
 ## Day 0 - Planning Phase
