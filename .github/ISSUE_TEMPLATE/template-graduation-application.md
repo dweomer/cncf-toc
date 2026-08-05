@@ -93,6 +93,10 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 <!-- (Project assertion goes here) --> 
 
+- [ ] **Commit to an annual governance health check on maintainer organizational composition.** _(A lightweight self-assessment to detect post-graduation governance concentration trends early.)_
+
+<!-- (Project assertion goes here) --> 
+
 ### Required
 
 - [ ] **Clear and discoverable project governance documentation.**
@@ -131,7 +135,11 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 <!-- (Project assertion goes here) --> 
 
-- [ ] **Project maintainers from at least 2 organizations that demonstrates survivability.**
+- [ ] **Project maintainers from at least 2 organizations that demonstrates survivability.** _(Verified through [LFX Insights](https://insights.lfx.linuxfoundation.org/) organizational dependency data, not just the MAINTAINERS file.)_
+
+<!-- (Project assertion goes here) --> 
+
+- [ ] **Document and demonstrate an org-balance mechanism for governance decisions** _(such as org-balanced voting, steering committee with org caps, or equivalent structural protection ensuring no single organization controls governance decisions regardless of maintainer composition. See [Org-Balanced Voting](https://github.com/cncf/project-template/blob/main/GOVERNANCE-org-balanced-voting.md) for a reusable template.)_
 
 <!-- (Project assertion goes here) --> 
 
@@ -161,11 +169,13 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 ### Suggested
 
-- [ ] **Contributor ladder with multiple roles for contributors.**
-
-<!-- (Project assertion goes here) --> 
+N/A
 
 ### Required
+
+- [ ] **Contributor ladder with multiple roles for contributors, demonstrably producing maintainers from outside the dominant contributing organization.**
+
+<!-- (Project assertion goes here) --> 
 
 - [ ] **Clearly defined and discoverable process to submit issues or changes.**
 

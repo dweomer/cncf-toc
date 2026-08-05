@@ -93,6 +93,12 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 <!-- (Project assertion goes here) --> 
 
+- [ ] **If the project has subprojects: subproject leadership, contribution, maturity status documented, including add/remove process.**
+
+<!-- (Project assertion goes here) --> 
+
+### Required
+
 - [ ] **Clear and discoverable project governance documentation.**
 
 <!-- (Project assertion goes here) --> 
@@ -121,11 +127,9 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 <!-- (Project assertion goes here) --> 
 
-- [ ] **If the project has subprojects: subproject leadership, contribution, maturity status documented, including add/remove process.**
+- [ ] **Maintainer affiliations are current and updated within 30 days of employment changes.**
 
-<!-- (Project assertion goes here) --> 
-
-### Required
+<!-- (Project assertion goes here) -->
 
 - [ ] **Document complete list of current maintainers, including names, contact information, domain of responsibility, and affiliation.**
 
@@ -155,13 +159,11 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 Note: this section may be augmented by the completion of a Governance Review from the Project Reviews subproject.
 
-### Suggested
+### Required
 
 - [ ] **Contributor ladder with multiple roles for contributors.**
 
 <!-- (Project assertion goes here) --> 
-
-### Required
 
 - [ ] **Clearly defined and discoverable process to submit issues or changes.**
 
