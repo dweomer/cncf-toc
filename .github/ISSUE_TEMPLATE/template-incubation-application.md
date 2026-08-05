@@ -283,6 +283,26 @@ Refer to the Adoption portion of this document.
 
 <!-- (Project assertion goes here) --> 
 
+## Specification Project Information (if applicable)
+
+<!-- Complete this section if your project defines normative behavior (MUST/SHALL/SHOULD per RFC 2119) that third parties can independently implement. If your project is not a specification project, you may delete this section. -->
+
+- [ ] **This project defines normative behavior intended for independent implementation.**
+
+<!-- (Project assertion goes here) -->
+
+- [ ] **List known implementations and their organizational affiliations.**
+
+<!-- (Project assertion goes here) -->
+
+- [ ] **Describe the spec proposal/change process for normative content.**
+
+<!-- (Project assertion goes here) -->
+
+- [ ] **Describe conformance testing or interoperability validation.**
+
+<!-- (Project assertion goes here) -->
+
 ## Additional Information
 
 <!-- Provide any additional information you feel is relevant for the TOC in conducting due diligence on this project. -->

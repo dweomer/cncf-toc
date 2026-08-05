@@ -317,3 +317,23 @@ MONTH YEAR
 
 _If the Adopting organization needs to remain anonymous, stating the industry vertical is sufficient._
 MONTH YEAR
+
+## Specification Project Information (if applicable)
+
+<!-- Complete this section if your project defines normative behavior (MUST/SHALL/SHOULD per RFC 2119) that third parties can independently implement. If your project is not a specification project, you may delete this section. -->
+
+- [ ] **List all known implementations with organizational affiliations and production usage.**
+
+<!-- (Project assertion goes here) -->
+
+- [ ] **Describe spec version history and stability.**
+
+<!-- (Project assertion goes here) -->
+
+- [ ] **Describe conformance test suite and results across implementations.**
+
+<!-- (Project assertion goes here) -->
+
+- [ ] **If hybrid project: describe how the reference implementation is governed separately from the spec.**
+
+<!-- (Project assertion goes here) -->
