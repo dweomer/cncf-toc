@@ -209,6 +209,7 @@ In addition to the standard DD criteria, spec projects are evaluated on the foll
 - Qualifying implementations must have documented production usage. An implementation that exists only as a proof of concept or test harness does not satisfy this criterion.
 - Individual implementations may have limited diversity of maintainers or adoption on their own, but as a whole the implementation ecosystem should be broad and diverse.
 - The reference implementation does not need to be part of the project undergoing Due Diligence.
+- Some specifications define multiple distinct components that may each have different implementation ecosystems (for example, a security spec may have many client-side implementations but fewer server-side implementations, or an attestation spec may have broad generation support but fewer policy verification implementations). When a spec has asymmetric component coverage, the TOC should evaluate implementation thresholds at the component level where appropriate and use judgment about whether the overall ecosystem demonstrates sufficient independent adoption. The thresholds above represent the expected baseline for the spec's core functionality; components with fewer implementations should have a clear rationale (such as inherently smaller deployment scope) documented in the Due Diligence.
 
 **Spec version stability.** The spec should have at least one stable or versioned release. For graduation, the spec should demonstrate stability through multiple versioned releases and a track record of managed, backward-compatible evolution.
 
