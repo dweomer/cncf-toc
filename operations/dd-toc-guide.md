@@ -63,7 +63,7 @@ The issue will contain a limited set of information about the project at the tim
 All TOC members are expected to assist in the triaging of project applications to move levels to ensure that when a TOC member is ready to be assigned, the project is ready to be evaluated with no immediate blockers that would inhibit or delay the TOC's engagement.
 
 This light-weight triage/evaluation must cover the list below (it is not exhaustive and is a minimum triage set from the [incubation template retrieved 12 DEC 2025](https://github.com/cncf/toc/blob/c2943ffc98064dd88e9ef9c4afd5a8856898942f/.github/ISSUE_TEMPLATE/template-incubation-application.md)):
-* Adoption Assertion includes the Adopters file link, and the project has an entry in the Adopter's form responses to provide 5-7 adopters to reach out to. [Check here](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter) for the definition of an Adopter.
+* Adoption Assertion includes the Adopters file link, and the project has an entry in the [Adopter Submission Form](https://docs.google.com/forms/d/1n1oLC6IKj5-7S_xeEjIdEjbtS9SWniuAo7IIOyLFuK8/edit) responses to provide 5-7 adopters to reach out to. [Check here](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter) for the definition of an Adopter.
 * Application Process Principles provides 
   * link to a completed [General Technical Review (GTR)](../toc_subprojects/project-reviews-subproject/general-technical-questions.md). The GTR snapshot should be submitted as a PR into `projects/<project-name>/tech-review/` in this repo, named `YYYY-MM-DD.md` to reflect the date of the snapshot. Projects may maintain a working copy in their own repository, but the TOC repo entry is the required artifact for the DD.
   * link to a completed [Governance Review](../toc_subprojects/project-reviews-subproject/governance-review-template.md)
@@ -247,7 +247,7 @@ Feedback by the TAG is encouraged prior to Due Diligence being initiated, as req
 
 In order to appropriately ascertain the adoption of a project, the TOC interviews a sampling of the project's adopters to understand how it is being used, what problems it is solving, the ease of adoption and integration, the community and contribution experience, and learn how adopters are experiencing the project's maturity level.
 
-The TOC member(s) begin reaching out to the 5-7 potential adopters provided by the project to be interviewed and work with the TAB in conducting the interview. The TOC, with support from CNCF staff and the TAB, is responsible for engaging adopters, gathering publication consent, scheduling, conducting, summarizing, gathering final approval, and including the approved summary of the interview within the Due Diligence.
+As part of the application process, projects are required to submit 5-7 potential adopters via the [Adopter Submission Form](https://docs.google.com/forms/d/1n1oLC6IKj5-7S_xeEjIdEjbtS9SWniuAo7IIOyLFuK8/edit). The TOC member(s) begin reaching out to these adopters to be interviewed and work with the TAB in conducting the interview. The TOC, with support from CNCF staff and the TAB, is responsible for engaging adopters, gathering publication consent, scheduling, conducting, summarizing, gathering final approval, and including the approved summary of the interview within the Due Diligence.
 
 Projects should not coach or instruct adopters with answers to interview questions and may encourage adopters to be open and transparent during the interviews. All interview notes are kept private unless permission is received from the adopter's organization for the notes to be made public.
 
@@ -266,6 +266,8 @@ To ease scheduling with adopters, TOC members are recommended to either include 
 It is anticipated that a minimum of three adopter interviews are required to appropriately ascertain adoption of a project. However in the course of interviewing, you may find that you need additional adopters or types of adopters to be interviewed.
 
 > **Note on Interview Participant Composition:** TOC members should prioritize interviewing adopter contacts who work with the project in an operational or user capacity. If the primary contact is a project maintainer or holds a project governance role, ask them to include a colleague from the same organization who uses the project operationally. Contributors from adopting organizations who have become maintainers can reflect strong community engagement, which is a positive signal. However, if such interviewees make up a meaningful proportion of the pool, overall results may skew overly positive. If you do not feel you have collected enough diverse perspectives, request interviews with additional adopters.
+
+> **TAB Reference Architecture Substitution:** A project's inclusion in a published [TAB Reference Architecture](https://github.com/cncf/tab/blob/main/process/reference-architectures.md) may serve as a replacement for an individual adopter interview. Reference architectures represent validated, production-level adoption by the submitting organization and provide equivalent signal to an adopter interview. TOC members should note the reference architecture in the adoption section of the Due Diligence in place of the interview summary it replaces.
 
 #### Spec project adopter interviews
 
