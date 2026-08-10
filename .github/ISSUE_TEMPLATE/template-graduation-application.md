@@ -173,7 +173,7 @@ N/A
 
 ### Required
 
-- [ ] **Contributor ladder with multiple roles for contributors, with demonstrated evidence of the ladder producing maintainers from more than one contributing organization.**
+- [ ] **Contributor ladder with multiple roles for contributors, with demonstrated evidence of the ladder producing maintainers from more than one contributing organization, as applicable.**
 
 <!-- (Project assertion goes here) --> 
 
