@@ -185,6 +185,21 @@ TOC members who sponsor projects seeking graduation are expected to review the r
 
 If a project is a specification project such as the TUF, SPIFFE and in-toto projects, there really is very little additional development that would need to happen and it is reasonable for the specification project to have only a few maintainers. For a specification project, it is required to have at least one implementation and that reference implementation DOES NOT need to be part of the project undergoing Due Diligence. The reference implementation should have sufficient adoption to assess maturity and viability of the specification.  In many successful specifications, different adopters will implement their own copy for a variety of reasons. Each individual implementation may have limited diversity of maintainers, adoption, etc. but as a whole it can be broad and diverse.
 
+#### Governance concentration and practice period
+
+During DD, TOC members should review the project's organizational contribution concentration using [LFX Insights](https://insights.lfx.linuxfoundation.org/) to corroborate the maintainer list. For projects with **>75% organizational dependency** and no org-balance mechanism (such as [org-balanced voting](https://github.com/cncf/project-template/blob/main/GOVERNANCE-org-balanced-voting.md), steering committee with org caps, or equivalent structural protection), the TOC recommends the project implement governance changes and demonstrate them in practice for **3 months** before the DD continues.
+
+Exit criteria for the practice period:
+
+- Org-balanced voting or steering committee adopted and documented
+- At least 3 governance meetings held with published minutes
+- At least one governance decision made through the new process
+- No regression in LFX org dependency
+
+This is not punitive -- it verifies that governance works under real conditions before the project moves forward. Projects with lower concentration or existing structural protections may proceed without a practice period. The TOC member should record the decision (whether a practice period is needed and why) in the DD PR.
+
+For governance best practices and anti-patterns to look for during DD, see the [governance guidance blog post](https://www.cncf.io/blog/), the [governance templates](https://contribute.cncf.io/projects/best-practices/governance/templates/), and the [governance remediation process](governance-remediation-process.md).
+
 ### Finalizing the Due Diligence
 
 When the TOC has finished their criteria evaluation, they should move the project's card on the [Application to Move Levels board](https://github.com/orgs/cncf/projects/27/views/9) to "Adopter Interviews & Project Discussion" and re-engage the project to elevate and discuss any items needing clarity, correction, or improvement. This includes notifying the project of any recommendations. Recommendations and discussion points may be copied into the kick-off document to facilitate discussion and to provide for additional context and discussion with the project until they are finalized.
