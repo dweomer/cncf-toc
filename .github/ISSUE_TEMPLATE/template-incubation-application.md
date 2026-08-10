@@ -127,7 +127,7 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 <!-- (Project assertion goes here) --> 
 
-- [ ] **Maintainer affiliations are current and updated within 30 days of employment changes.**
+- [ ] **Maintainer affiliations are current and a policy is in place requiring updates within 30 days of employment changes.** _(If affiliations have lapsed, document how the project identified and corrected them.)_
 
 <!-- (Project assertion goes here) -->
 

@@ -135,7 +135,7 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 <!-- (Project assertion goes here) --> 
 
-- [ ] **Project maintainers from at least 2 organizations that demonstrates survivability.** _(Verified through [LFX Insights](https://insights.lfx.linuxfoundation.org/) organizational dependency data, not just the MAINTAINERS file.)_
+- [ ] **Project maintainers from at least 2 organizations that demonstrates survivability.** _(Verified through the current project maintainer list, including affiliations. Use [LFX Insights](https://insights.lfx.linuxfoundation.org/) where available to corroborate organizational contribution patterns; explain any unavailable or conflicting data.)_
 
 <!-- (Project assertion goes here) --> 
 
@@ -173,7 +173,7 @@ N/A
 
 ### Required
 
-- [ ] **Contributor ladder with multiple roles for contributors, demonstrably producing maintainers from outside the dominant contributing organization.**
+- [ ] **Contributor ladder with multiple roles for contributors, with demonstrated evidence of the ladder producing maintainers from more than one contributing organization.**
 
 <!-- (Project assertion goes here) --> 
 
