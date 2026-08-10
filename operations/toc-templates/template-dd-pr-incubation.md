@@ -277,3 +277,39 @@ MONTH YEAR
 
 _If the Adopting organization needs to remain anonymous, stating the industry vertical is sufficient._
 MONTH YEAR
+
+## Specification Project Considerations (if applicable)
+
+<!-- Complete this section if the project defines normative behavior (MUST/SHALL/SHOULD per RFC 2119) that third parties can independently implement. If the project is not a specification project, delete this section. See the "Specification projects" section of the DD guide for full guidance. -->
+
+- [ ] **Project defines normative behavior (MUST/SHALL/SHOULD) intended for independent implementation.**
+
+<!-- (TOC Evaluation goes here) -->
+
+- [ ] **At least 2 independent implementations exist, with at least 1 from outside the primary contributing organization to the spec authoring.**
+
+<!-- (TOC Evaluation goes here) -->
+
+- [ ] **Qualifying implementations have documented production usage.**
+
+<!-- (TOC Evaluation goes here) -->
+
+- [ ] **Spec has at least one stable or versioned release.**
+
+<!-- (TOC Evaluation goes here) -->
+
+- [ ] **Conformance testing or interoperability evidence is documented.**
+
+<!-- (TOC Evaluation goes here) -->
+
+- [ ] **Formal proposal process for normative spec changes exists.**
+
+<!-- (TOC Evaluation goes here) -->
+
+- [ ] **Spec editor or equivalent role is identified.**
+
+<!-- (TOC Evaluation goes here) -->
+
+- [ ] **Adopter interviews include implementers from multiple independent implementations, not just users of one implementation.**
+
+<!-- (TOC Evaluation goes here) -->
