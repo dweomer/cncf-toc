@@ -64,10 +64,8 @@ If this is the case for your project, please mark it as not-applicable (N/A) and
 
 ### Scope
 
-  * What technical and business requirements and problems is the project intended to address? How does it address them?
-  * What unique values does the project offer compared to similar and related projects?
-  * What are the primary use cases for the project? What additional use cases are supported by the project?
-  * Are these use cases that are explicitly unsupported by the project and why?
+  * Describe the project's vision and goals.
+  * Describe the primary use cases for the project. Describe any additional use cases the project supports. Describe any use cases specifically out of scope of the project.
   * Describe the roadmap process, how scope is determined for mid to long term features, as well as how the roadmap maps back to current contributions and maintainer ladder?
   * Describe the target persona or user(s) for the project?
   * Describe the intended types of organizations who would benefit from adopting this project. (i.e. financial services, any software manufacturer, organizations providing platform engineering services)?  
