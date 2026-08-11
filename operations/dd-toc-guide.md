@@ -231,6 +231,21 @@ For specification projects, "adopters" are the implementations of the spec and t
 
 Spec projects may optionally pursue formal standardization through the Joint Development Foundation (JDF). This is not a CNCF maturity criterion and is not evaluated during Due Diligence. Projects interested in this path should coordinate with CNCF staff separately.
 
+#### Governance concentration and practice period
+
+During DD, TOC members should review the project's organizational contribution concentration using [LFX Insights](https://insights.lfx.linuxfoundation.org/) to corroborate the maintainer list. For projects with **>75% organizational dependency** and no org-balance mechanism (such as [org-balanced voting](https://github.com/cncf/project-template/blob/main/GOVERNANCE-org-balanced-voting.md), steering committee with org caps, or equivalent structural protection), the TOC recommends the project implement governance changes and demonstrate them in practice for **3 months** before the DD continues.
+
+Exit criteria for the practice period:
+
+- Org-balanced voting or steering committee adopted and documented
+- At least 3 governance meetings held with published minutes
+- At least one governance decision made through the new process
+- No regression in LFX org dependency
+
+This is not punitive -- it verifies that governance works under real conditions before the project moves forward. Projects with lower concentration or existing structural protections may proceed without a practice period. The TOC member should record the decision (whether a practice period is needed and why) in the DD PR.
+
+For governance best practices and anti-patterns to look for during DD, see the [governance guidance blog post](https://www.cncf.io/blog/), the [governance templates](https://contribute.cncf.io/projects/best-practices/governance/templates/), and the [governance remediation process](governance-remediation-process.md).
+
 ### Finalizing the Due Diligence
 
 When the TOC has finished their criteria evaluation, they should move the project's card on the [Application to Move Levels board](https://github.com/orgs/cncf/projects/27/views/9) to "Adopter Interviews & Project Discussion" and re-engage the project to elevate and discuss any items needing clarity, correction, or improvement. This includes notifying the project of any recommendations. Recommendations and discussion points may be copied into the kick-off document to facilitate discussion and to provide for additional context and discussion with the project until they are finalized.
