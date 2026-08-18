@@ -40,8 +40,6 @@ Performance of a storage system is typically measured in terms of one or more of
 
 Storage performance varies greatly from the combination of workloads, storage software layers, topology, and storage systems. Benchmarks and datasheets offer some guidance but experiments with real datasets and data processing unique to a workload produces a better prediction of deployed performance.
 
-For an in depth description of storage performance, see the [Performance and Benchmarking](https://docs.google.com/document/d/1r9gPg9wLwm2GAmEoSn_HOqMwWZjwCuT6TysclvPWVQU/edit?usp=sharing) paper created by CNCF TAG Storage (before the TAG reboot).
-
 ## 3.4 Consistency
 
 Consistency attributes of a storage system refer to the ability to access newly created data or updates to the same after it has been committed and applies to both:

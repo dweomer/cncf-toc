@@ -23,7 +23,7 @@ Not all databases are cloud-native. Therefore, caution must be used before runni
 - the ephemeral local storage, and
 - the added latency of a remotely mounted volume.
 
-A number of CNCF projects are operators for databases like Postgres or MySQL, and provide advanced capabilities to manage the deployment of the database with complex topology support, as well as handling day 2 operations (such as upgrades), and operational functions such as failovers.
+A number of CNCF projects are operators for databases like PostgreSQL or MySQL, and provide advanced capabilities to manage the deployment of the database with complex topology support, as well as handling day 2 operations (such as upgrades), and operational functions such as failovers.
 
 These concerns can typically be addressed with additional tooling like the use of proxies and orchestration systems that can react to events that some databases may not be inherently built to handle. The exact solution will differ based on the extent to which a system is sensitive to the above changes.
 
