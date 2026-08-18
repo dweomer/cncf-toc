@@ -36,7 +36,7 @@ Performance of a storage system is typically measured in terms of one or more of
 - Average and worst-case latency to perform storage operations to files, disk blocks or objects.
 - the number of storage operations that are possible per second
 - the throughput of data that can be stored or retrieved per second
-- The steady state and burst performance of the metrics above and other storage metrics.
+- The steady state and burst performance of the metrics above.
 
 Storage performance varies greatly from the combination of workloads, storage software layers, topology, and storage systems. Benchmarks and datasheets offer some guidance but experiments with real datasets and data processing unique to a workload produces a better prediction of deployed performance.
 
@@ -71,6 +71,8 @@ In data systems, monitoring the flow and status of infrastructure is vital due t
 In modern computing environments, elasticity is a critical aspect of infrastructure management. While scalability focuses on adding resources to meet demand, elasticity goes a step further by enabling the release of resources when they are no longer required. This feature allows organizations to optimize their resource utilization, ensuring that they only pay for the services and resources they need. The ability to scale up and down quickly is a defining characteristic of elastic infrastructure, which is also referred to as on-demand infrastructure. In environments with limited resources, such as private data centers, elasticity is essential for efficient resource allocation and utilization.
 
 In data management, elasticity means having the ability to optimize storage space usage by reclaiming storage when no longer needed. This can involve moving older data to less expensive storage tiers or archiving it to long-term storage to free up space for more critical data. Cloud infrastructure, which charges for every resource used, can benefit greatly from this feature, as it helps to prevent unnecessary costs from running services that are no longer required. An elastic infrastructure that can rapidly respond to changes in demand and adjust resource allocation accordingly is a vital component of modern IT systems, enabling organizations to maintain optimal performance, scalability, and cost-effectiveness.
+
+*The Observability and Elasticity attributes above are adapted from the [Data on Kubernetes Whitepaper - Database Patterns](https://github.com/cncf/tag-storage/blob/master/data-on-kubernetes-whitepaper/data-on-kubernetes-whitepaper-databases.md).*
 
 ## 3.8 Instantiation & Deployment
 

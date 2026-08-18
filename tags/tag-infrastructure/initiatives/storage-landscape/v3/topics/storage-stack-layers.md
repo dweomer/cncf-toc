@@ -133,6 +133,8 @@ Encryption services can be implemented for data in transit (protecting data in t
 
 The encryption function will often depend on integration with a key management system which may add complexity to a storage system.
 
+Encryption is only one part of a broader security posture. For a more detailed treatment of security topics such as transport layer security and certificate management, encryption at rest, and authentication/authorization integration with Kubernetes, see the [Security section](https://github.com/cncf/tag-storage/blob/master/data-on-kubernetes-whitepaper/data-on-kubernetes-whitepaper-databases.md#security) of the Data on Kubernetes Whitepaper - Database Patterns.
+
 ## 4.6 Physical / Non-Volatile Layer – terminology
 
 Storage systems will ultimately persist data on some form of physical storage layer which is generally non-volatile. The choice of the physical layer impacts the overall performance of the storage system and defines the long term durability of the stored dataset.
