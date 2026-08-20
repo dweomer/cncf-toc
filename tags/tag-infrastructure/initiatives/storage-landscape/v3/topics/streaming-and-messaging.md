@@ -16,6 +16,15 @@ However, in many cases, proprietary protocols that are owned and maintained by a
 
 Some programming languages provide their own set of standard APIs to abstract the wire-level protocol used by the messaging/streaming system (for example the Java-JMS API).
 
+The following table gives some examples of how popular systems map onto this protocol landscape:
+
+| System | Native Protocol | Also Supports |
+| --- | --- | --- |
+| Apache Kafka | Kafka protocol (binary over TCP) | AMQP/MQTT via external bridges/connectors (e.g. Kafka Connect), not native |
+| RabbitMQ | AMQP 0-9-1 | MQTT, STOMP (via bundled plugins) |
+| Amazon SQS | HTTP(S)-based AWS API | JMS 1.1 interface via the Amazon SQS Java Messaging Library |
+| Apache Pulsar | Pulsar binary protocol | Kafka protocol (KoP), AMQP (AoP), MQTT (MoP) — official Pulsar protocol handlers |
+
 ## 11.2 Availability and durability
 
 Streaming and messaging systems use different approaches to achieve availability and reliability:
