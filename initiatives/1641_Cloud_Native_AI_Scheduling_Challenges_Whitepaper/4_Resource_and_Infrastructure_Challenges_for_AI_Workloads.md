@@ -104,7 +104,7 @@ Hardware topology significantly impacts AI workload performance. Two different c
 * **Checkpointing:** Training jobs periodically save model state to storage. Checkpointing a large model can take minutes and requires high storage bandwidth. Frequent checkpointing (for fault tolerance) vs. infrequent checkpointing (for performance) is a tradeoff.  
 * **Model loading for inference:** Before serving requests, inference services must load model weights to GPU memory.  The time and method of loading depends on the scenario:  
   * Cold start: Loading from storage (local filesystems or cloud object storage (S3, GCS)) can take minutes for large models. Optimized streaming tools (such as Run:ai Model Streamer, Tensorizer, and fastsafetensors) reduce this to seconds by streaming weights directly into GPU memory.  
-  *   
+  * Distribution at scale: When many replicas start at once, each pulls the same weights independently, and the resulting thundering herd saturates registry or object store egress. Peer-to-peer distribution ([Dragonfly](https://github.com/dragonflyoss/dragonfly), CNCF Graduated) has nodes serve cached blocks to one another, reducing load on the origin as replica count grows.  
 * **Storage performance:** The MLCommons Storage benchmark measures storage system performance for ML workloads. Inadequate storage throughput can bottleneck the entire training pipeline, regardless of how many GPUs are available.
 
 ## Fault Tolerance and Elasticity

@@ -93,6 +93,7 @@ These tools provide higher-level abstractions for AI workflows:
 
 ## Data and Storage Tools
 
+* [**Dragonfly**](https://github.com/dragonflyoss/dragonfly) (CNCF Graduated) accelerates distribution of container images and AI model artifacts through peer-to-peer networking, with `hf://` and `modelscope://` backends for model weights. Nodes serve cached content to one another, reducing registry load when many replicas start together.  
 * [**Fluid**](https://github.com/fluid-cloudnative/fluid) (CNCF Sbx) accelerates data access for AI workloads through dataset caching and data movement optimization. Reduces I/O bottlenecks that leave GPUs idle.  
 * [**HAMi**](https://github.com/Project-HAMi/HAMi) (Heterogeneous AI Computing Virtualization Middleware) enables flexible GPU sharing and partitioning across different GPU types.  
 * [**Kubeflow**](https://www.kubeflow.org/) (CNCF incubating project):  
@@ -130,7 +131,7 @@ A reference table that maps each challenge to the solutions that address it. All
 | Resource Heterogeneity | Node selectors, labels | All batch schedulers | \- | Both | Standard Kubernetes features usually sufficient |
 | GPU Sharing | DRA (GA, K8s 1.34+) | KAI | HAMi, KubeRay, Volcano | Both | MIG requires DRA or vendor tools |
 | Scalability | Cluster Autoscaler, Karpenter | Armada, KAI, KEDA, Kueue, Slinky, Volcano | interLink | Both | Large-scale scheduling is challenging |
-| I/O Bottlenecks | PersistentVolumes | \- | Fluid | Both | Storage and caching solutions |
+| I/O Bottlenecks | PersistentVolumes | \- | Dragonfly, Fluid | Both | Storage and caching solutions |
 | Fault Tolerance | \- | KAI, Slinky, Volcano (checkpoint support)  | Kubeflow (elastic training) | Training | Framework-dependent |
 | Elasticity | HPA, VPA | KAI, Slinky, Volcano | Kubeflow Trainer | Both | PyTorch Elastic, etc. |
 | Budget/Cost | \- | Limited support | Flyte (spot/interruptible tasks) | Both | Emerging area  |
